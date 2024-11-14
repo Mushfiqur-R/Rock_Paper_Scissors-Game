@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 5rem;
+}
+.choice {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  background-color: black;
+}
+img {
+  height: 185px;
+  width: 185px;
+  object-fit: cover; /* to fit the image into the div properly  */
+  border-radius: 6rem;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.msgbox {
+  margin-top: 5rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
+.resetbtn {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  background-color: black;
+  color: white;
+  height: 1rem;
+  width: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
